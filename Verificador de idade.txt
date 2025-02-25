@@ -1,0 +1,29 @@
+#include <stdio.h>
+
+int main()
+{
+    int idade;
+    int duvido;
+    // printf("Digite sua Idade: ");
+    // scanf("%d", &idade);
+    
+    do{
+        printf("Digite sua Idade: ");
+        scanf("%d", &idade);
+        
+    }while(idade < 0);
+    
+    if(idade >= 65){
+        printf("Vai para o Buteco \n");
+    }else if(idade >= 18){
+        printf("Entra na festa e APROVEITA!! \n");
+    }else if(idade >= 12){
+        printf("Entra e espia por 5 minutos depois vaza daqui!! \n");
+    }else{
+        printf("CHORA BB!! \n");
+    }
+    
+    printf("Vai para casa e dorme!! \n");
+    
+    return 0;
+}
